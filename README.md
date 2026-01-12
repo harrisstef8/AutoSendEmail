@@ -1,12 +1,22 @@
-## Αυτόματη αποστολή email με PHP
+## Automatic Email Sending with PHP
 
-Το παρόν script υλοποιεί την αυτόματη αποστολή email από έναν αποστολέα σε έναν παραλήπτη, χρησιμοποιώντας τη βιβλιοθήκη PHPMailer.
+This script implements automatic email delivery from a sender to a recipient using the PHPMailer library.
 
-Με τη χρήση SMTP, το script:
-- ρυθμίζει ασφαλή σύνδεση email (TLS),
-- υποστηρίζει ελληνικούς χαρακτήρες (UTF-8),
-- αποστέλλει HTML email με εναλλακτικό plain text περιεχόμενο,
-- επισυνάπτει αρχείο PDF,
-- και διαχειρίζεται επιτυχώς σφάλματα αποστολής.
+By utilizing SMTP, the script:
 
-Η αποστολή εκτελείται αυτόματα με την εκτέλεση του αρχείου PHP, καθιστώντας το ιδανικό για ειδοποιήσεις, αναφορές ή αυτοματοποιημένη επικοινωνία.
+* establishes a secure email connection using TLS,
+* supports UTF-8 encoding for international (including Greek) characters,
+* sends HTML emails with an alternative plain text version,
+* attaches a PDF file,
+* and properly handles email delivery errors.
+
+The email is sent automatically upon execution of the PHP file, making the script suitable for notifications, reports, and automated communication workflows.
+
+---
+
+
+## Author
+
+**harrisstef**
+
+This project is part of my personal portfolio.
